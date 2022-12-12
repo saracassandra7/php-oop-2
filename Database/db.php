@@ -15,7 +15,7 @@ $foodList = [
   
   new Food(new Category('Cane', $dogIcon), 'Cibo per cani', 'https://www.magazzinitotopiccinni.it/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/r/o/royal-canin-15kg-cani.jpg', 'Royal Canin', 45, 15, ['manzo', 'verdure'], false ),
 
-  new Food(new Category('Gatto', $catIcon), 'Cibo per gatti', 'https://m.media-amazon.com/images/I/71gvlL6mi4L._AC_SX679_PIbundle-12,TopRight,0,0_SH20_.jpg', 'Purina One', 5, 0.3, ['manzo', 'verdure'], true)
+  new Food(new Category('Gatto', $catIcon), 'Cibo per gatti', 'https://m.media-amazon.com/images/I/71gvlL6mi4L._AC_SX679_PIbundle-12,TopRight,0,0_SH20_.jpg', 'Purina One', 5, 0.3, ['manzo', 'verdure', 'carote'], true)
 
 ];
 
