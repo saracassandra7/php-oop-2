@@ -8,7 +8,7 @@ class Product{
   public $price;
   public $is_available = true;
 
-  public function __construct($_category, $_name, $_image, $_brand, $_price)
+  public function __construct(Category $_category, $_name, $_image, $_brand, $_price)
   {
     $this->category = $_category;
     $this->name = $_name;
