@@ -6,12 +6,19 @@ include __DIR__ . '/Models/Food.php';
 include __DIR__ . '/Models/Toy.php';
 include __DIR__ . '/Models/Bed.php';
 
-$prova = new Food(new Category('gatto', 'icona gatto'), 'cibo prova', 'marca', 20, '5kg', 'carne, verdure');
-
-$prova->setImage('djdjhdjd');
-$prova->setAvailability(false);
-$prova->setIsWet(true);
-
-var_dump($prova);
-
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Pet Shop</title>
+</head>
+<body>
+  
+</body>
+</html>
